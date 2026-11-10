@@ -102,7 +102,6 @@ function showReview(direction) {
 }
 document.querySelector('#review-prev').addEventListener('click', () => showReview(-1));
 document.querySelector('#review-next').addEventListener('click', () => showReview(1));
-document.querySelector('#year').textContent = new Date().getFullYear();
 
 // Without JavaScript, show navigation and keep unavailable controls disabled.
 document.documentElement.classList.add('has-js');
