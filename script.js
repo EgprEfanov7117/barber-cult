@@ -52,8 +52,8 @@ function openDialog(trigger, social) {
   returnFocus = trigger;
   dialogTitle.innerHTML = social ? 'ОСТАВАЙСЯ<br><span class="accent">В CULT.</span>' : 'ТВОЙ СЛЕДУЮЩИЙ<br><span class="accent">ОБРАЗ.</span>';
   dialogDescription.textContent = social
-    ? `${social} — демонстрационная ссылка. У вымышленного бренда BARBER CULT нет официальных социальных сетей. Это портфолио AI-студии NOVARY.`
-    : 'Это демонстрационный проект NOVARY. Настоящая запись недоступна: данные не собираются и никуда не отправляются.';
+    ? `${social} — демонстрационная ссылка. У вымышленного бренда BARBER CULT нет официальных социальных сетей. Это учебный проект Гусевой Полины.`
+    : 'Это учебный проект Гусевой Полины. Настоящая запись недоступна: данные не собираются и никуда не отправляются.';
   const details = [];
   if (trigger.dataset.service) details.push(`Услуга: ${trigger.dataset.service}`);
   if (trigger.dataset.master) details.push(`Мастер: ${trigger.dataset.master}`);
